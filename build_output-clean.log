@@ -1,0 +1,182 @@
+﻿
+> digireps-project@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.3.0
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully in 6.0s
+   Linting and checking validity of types ...
+node.exe : 
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:S 
+   tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandErro 
+   r
+ 
+Failed to compile.
+
+./src/app/(solutions)/back-end-developer/page.ts
+x
+120:44  Error: Unexpected any. Specify a 
+different type.  
+@typescript-eslint/no-explicit-any
+
+./src/app/edit-profile/page.tsx
+489:17  Warning: Using `<img>` could result in 
+slower LCP and higher bandwidth. Consider using 
+`<Image />` from `next/image` or a custom image 
+loader to automatically optimize images. This 
+may incur additional usage or cost from your 
+provider. See: 
+https://nextjs.org/docs/messages/no-img-element 
+ @next/next/no-img-element
+
+./src/app/layout.tsx
+46:42  Error: Unexpected any. Specify a 
+different type.  
+@typescript-eslint/no-explicit-any
+54:44  Error: Unexpected any. Specify a 
+different type.  
+@typescript-eslint/no-explicit-any
+65:9  Warning: Custom fonts not added in 
+`pages/_document.js` will only load for a 
+single page. This is discouraged. See: https://n
+extjs.org/docs/messages/no-page-custom-font  
+@next/next/no-page-custom-font
+69:9  Warning: Custom fonts not added in 
+`pages/_document.js` will only load for a 
+single page. This is discouraged. See: https://n
+extjs.org/docs/messages/no-page-custom-font  
+@next/next/no-page-custom-font
+
+./src/app/page.tsx
+30:42  Error: Unexpected any. Specify a 
+different type.  
+@typescript-eslint/no-explicit-any
+39:44  Error: Unexpected any. Specify a 
+different type.  
+@typescript-eslint/no-explicit-any
+46:44  Error: Unexpected any. Specify a 
+different type.  
+@typescript-eslint/no-explicit-any
+53:44  Error: Unexpected any. Specify a 
+different type.  
+@typescript-eslint/no-explicit-any
+
+./src/components/contact/ContactBoxes.tsx
+39:39  Warning: The ref value 
+'sectionRef.current' will likely have changed 
+by the time this effect cleanup function runs. 
+If this ref points to a node rendered by React, 
+copy 'sectionRef.current' to a variable inside 
+the effect, and use that variable in the 
+cleanup function.  react-hooks/exhaustive-deps
+
+./src/components/home/ScrollCards.tsx
+120:15  Warning: Using `<img>` could result in 
+slower LCP and higher bandwidth. Consider using 
+`<Image />` from `next/image` or a custom image 
+loader to automatically optimize images. This 
+may incur additional usage or cost from your 
+provider. See: 
+https://nextjs.org/docs/messages/no-img-element 
+ @next/next/no-img-element
+
+./src/components/home/sections/EmpowerYourBusine
+ss.tsx
+98:19  Warning: Using `<img>` could result in 
+slower LCP and higher bandwidth. Consider using 
+`<Image />` from `next/image` or a custom image 
+loader to automatically optimize images. This 
+may incur additional usage or cost from your 
+provider. See: 
+https://nextjs.org/docs/messages/no-img-element 
+ @next/next/no-img-element
+
+./src/components/home/sections/HearClientsSucces
+sWorlds.tsx
+101:23  Warning: Using `<img>` could result in 
+slower LCP and higher bandwidth. Consider using 
+`<Image />` from `next/image` or a custom image 
+loader to automatically optimize images. This 
+may incur additional usage or cost from your 
+provider. See: 
+https://nextjs.org/docs/messages/no-img-element 
+ @next/next/no-img-element
+126:23  Warning: Using `<img>` could result in 
+slower LCP and higher bandwidth. Consider using 
+`<Image />` from `next/image` or a custom image 
+loader to automatically optimize images. This 
+may incur additional usage or cost from your 
+provider. See: 
+https://nextjs.org/docs/messages/no-img-element 
+ @next/next/no-img-element
+
+./src/components/home/TextReveal.tsx
+58:6  Warning: React Hook useEffect has a 
+missing dependency: 'lines.length'. Either 
+include it or remove the dependency array.  
+react-hooks/exhaustive-deps
+
+./src/components/solutions/HowToHire.tsx
+35:34  Warning: The ref value 'bgRef.current' 
+will likely have changed by the time this 
+effect cleanup function runs. If this ref 
+points to a node rendered by React, copy 
+'bgRef.current' to a variable inside the 
+effect, and use that variable in the cleanup 
+function.  react-hooks/exhaustive-deps
+59:46  Warning: The ref value 
+'sectionRef.current' will likely have changed 
+by the time this effect cleanup function runs. 
+If this ref points to a node rendered by React, 
+copy 'sectionRef.current' to a variable inside 
+the effect, and use that variable in the 
+cleanup function.  react-hooks/exhaustive-deps
+90:15  Warning: Using `<img>` could result in 
+slower LCP and higher bandwidth. Consider using 
+`<Image />` from `next/image` or a custom image 
+loader to automatically optimize images. This 
+may incur additional usage or cost from your 
+provider. See: 
+https://nextjs.org/docs/messages/no-img-element 
+ @next/next/no-img-element
+113:15  Warning: Using `<img>` could result in 
+slower LCP and higher bandwidth. Consider using 
+`<Image />` from `next/image` or a custom image 
+loader to automatically optimize images. This 
+may incur additional usage or cost from your 
+provider. See: 
+https://nextjs.org/docs/messages/no-img-element 
+ @next/next/no-img-element
+136:15  Warning: Using `<img>` could result in 
+slower LCP and higher bandwidth. Consider using 
+`<Image />` from `next/image` or a custom image 
+loader to automatically optimize images. This 
+may incur additional usage or cost from your 
+provider. See: 
+https://nextjs.org/docs/messages/no-img-element 
+ @next/next/no-img-element
+158:15  Warning: Using `<img>` could result in 
+slower LCP and higher bandwidth. Consider using 
+`<Image />` from `next/image` or a custom image 
+loader to automatically optimize images. This 
+may incur additional usage or cost from your 
+provider. See: 
+https://nextjs.org/docs/messages/no-img-element 
+ @next/next/no-img-element
+
+./src/context/AuthContext.tsx
+124:6  Warning: React Hook useEffect has a 
+missing dependency: 'scheduleAutoLogout'. 
+Either include it or remove the dependency 
+array.  react-hooks/exhaustive-deps
+
+info  - Need to disable some ESLint rules? 
+Learn more here: https://nextjs.org/docs/app/api
+-reference/config/eslint#disabling-rules

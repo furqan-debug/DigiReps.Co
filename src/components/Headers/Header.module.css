@@ -1,0 +1,157 @@
+/* ----- Container variants ----- */
+
+/* base header (other pages) */
+.header {
+  position: static;
+  width: 100%;
+}
+
+/* homepage header override */
+.header.home {
+  background: var(--color-1) url("/images/header-bg.webp") no-repeat center
+    center / cover;
+  height: 1011px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+/* ----- Navigation (shared) ----- */
+@media (min-width: 1024px) {
+  .header nav {
+    background: var(--color-1);
+    box-shadow: 10px 10px 30px rgba(174, 174, 192, 0.4);
+  }
+}
+
+.header nav {
+  background: var(--color-1);
+}
+.header nav ul {
+  font-family: var(--font-family-roboto);
+  font-size: 1rem;
+  gap: 3.75rem;
+  font-weight: 400;
+}
+
+.header ul li a,
+.header ul,
+.header ul li,
+.header ul li button,
+.header ul li a button {
+  font-family: var(--font-family-roboto) !important;
+}
+
+@media (min-width: 1024px) {
+  .header ul li a {
+    font-family: var(--font-family-roboto);
+    position: relative;
+    height: 3.5rem;
+    padding: 0 0.938rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-4);
+  }
+
+  .header ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+    background: var(--color-3);
+    width: 0;
+    height: 0.188rem;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .header ul li a:hover::after {
+    width: 100%;
+  }
+
+  .header ul li a.active {
+    position: relative !important;
+  }
+
+  .header ul li a.active::after {
+    width: 100% !important;
+  }
+}
+
+.header ul li a {
+  font-family: var(--font-family-roboto);
+  position: relative;
+  display: flex;
+  color: var(--color-4);
+}
+
+.header ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+  bottom: 0;
+  background: var(--color-3);
+  width: 0;
+  height: 0.188rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.header ul li a:hover::after {
+  width: 100%;
+}
+
+.header ul li a.active {
+  position: relative !important;
+}
+
+.header ul li a.active::after {
+  width: 100% !important;
+}
+
+/* ----- Buttons (shared) ----- */
+
+.header button.loginBtn {
+  background-color: var(--color-2);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.header button.loginBtn:hover {
+  background-color: var(--color-3);
+}
+
+.header button.bookConsultationBtn {
+  background: var(--color-3);
+  cursor: pointer;
+  color: var(--color-6);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.header button.bookConsultationBtn:hover {
+  background: var(--color-2);
+  color: var(--color-5);
+}
+
+.header button.bookConsultationBtn img {
+  transition: all 0.5s ease-in-out;
+}
+
+.header button.bookConsultationBtn:hover img {
+  filter: brightness(0) invert(1);
+}
+
+/* ----- Hero (home only) ----- */
+
+.heroContainer {
+  max-width: 889px;
+  width: 100%;
+  margin: 0 auto;
+}

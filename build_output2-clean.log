@@ -1,0 +1,43 @@
+﻿
+> digireps-project@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.3.0
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully in 7.0s
+   Linting and checking validity of types ...
+node.exe : Failed to compile.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Fail 
+   ed to compile.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+./src/app/aboutus/page.tsx:32:49
+Type error: Parameter 'item' implicitly has an 
+'any' type.
+
+  30 |
+  31 |   // Map into your own 
+TestimonialItem shape
+> 32 |   
+const data: 
+StoryItem[] = 
+response.items.map((item) 
+=> ({
+     |                              
+                   ^
+  33 |     sys: { 
+id: item.sys.id 
+},
+  34 |     fields: {
+  35 |       heading: 
+item.fields.heading 
+as string,
+Next.js build worker exited with code: 1 and 
+signal: null
