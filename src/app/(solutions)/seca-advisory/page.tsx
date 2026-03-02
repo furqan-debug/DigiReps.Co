@@ -45,8 +45,8 @@ export default async function page() {
                         Efficient <span className="txtYellow">SECA Advisory</span>
                         <br />
                         <span className="txtBlue">Reps</span>
-                    </>  
-                } 
+                    </>
+                }
                 description="Leverage our Sales Development Reps to consistently fill your pipeline with qualified opportunities. Our skilled SDRs coupled with our proven-process empower your business to achieve sustainable growth and maximize ROI"
             />
 
