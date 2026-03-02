@@ -13,7 +13,7 @@ import WhyChoose from "@/components/solutions/WhyChoose";
 import { getClient } from "lib/contentful";
 import { AssetField } from "lib/types/contentful";
 import React from "react";
-import { logos, secaTeamList } from "@/data/solutionsData";
+import { logos, sicaTeamList } from "@/data/solutionsData";
 
 export default async function page() {
     const client = getClient();
@@ -124,7 +124,7 @@ export default async function page() {
                         <span className="txtBlue">Sales Development</span> Reps
                     </>
                 }
-                teamMembers={secaTeamList}
+                teamMembers={sicaTeamList}
                 highlightLast={true}
                 showRequestButton={true}
             />

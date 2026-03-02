@@ -45,7 +45,7 @@ export default function Header() {
 
   const solutions = [
     "Sales Development Rep",
-    "SECA Advisory",
+    "SICA Advisory",
     "Customer Support Rep",
     "Leads Researcher",
     "Digital Marketing Rep",

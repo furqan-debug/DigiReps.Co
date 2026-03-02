@@ -1,7 +1,7 @@
-export const secaTeamList = [
+export const sicaTeamList = [
     {
         name: "Carlos M",
-        role: "SECA Advisory",
+        role: "SICA Advisory",
         image: "/images/carlos.png",
         location: "Mexico",
         experience: "3 years of experience",
@@ -17,7 +17,7 @@ export const secaTeamList = [
     },
     {
         name: "Sofia P",
-        role: "SECA Advisory",
+        role: "SICA Advisory",
         image: "/images/sofia.png",
         location: "Colombia",
         experience: "4 years of experience",
@@ -33,7 +33,7 @@ export const secaTeamList = [
     },
     {
         name: "David J. ",
-        role: "SECA Advisory",
+        role: "SICA Advisory",
         image: "/images/david.png",
         location: "Trinidad and Tobago",
         experience: "5 years of experience",
@@ -49,7 +49,7 @@ export const secaTeamList = [
     },
     {
         name: "Sofia P",
-        role: "SECA Advisory",
+        role: "SICA Advisory",
         image: "/images/sofia.png",
         location: "Colombia",
         experience: "4 years of experience",
