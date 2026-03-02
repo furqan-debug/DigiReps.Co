@@ -1,7 +1,7 @@
-export const sicaTeamList = [
+export const cisaTeamList = [
     {
         name: "Carlos M",
-        role: "SICA Advisory",
+        role: "CISA Advisory",
         image: "/images/carlos.png",
         location: "Mexico",
         experience: "3 years of experience",
@@ -17,7 +17,7 @@ export const sicaTeamList = [
     },
     {
         name: "Sofia P",
-        role: "SICA Advisory",
+        role: "CISA Advisory",
         image: "/images/sofia.png",
         location: "Colombia",
         experience: "4 years of experience",
@@ -33,7 +33,7 @@ export const sicaTeamList = [
     },
     {
         name: "David J. ",
-        role: "SICA Advisory",
+        role: "CISA Advisory",
         image: "/images/david.png",
         location: "Trinidad and Tobago",
         experience: "5 years of experience",
@@ -49,7 +49,7 @@ export const sicaTeamList = [
     },
     {
         name: "Sofia P",
-        role: "SICA Advisory",
+        role: "CISA Advisory",
         image: "/images/sofia.png",
         location: "Colombia",
         experience: "4 years of experience",

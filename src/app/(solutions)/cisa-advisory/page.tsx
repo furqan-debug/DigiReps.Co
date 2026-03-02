@@ -13,7 +13,7 @@ import WhyChoose from "@/components/solutions/WhyChoose";
 import { getClient } from "lib/contentful";
 import { AssetField } from "lib/types/contentful";
 import React from "react";
-import { logos, sicaTeamList } from "@/data/solutionsData";
+import { logos, cisaTeamList } from "@/data/solutionsData";
 
 export default async function page() {
     const client = getClient();
@@ -42,9 +42,9 @@ export default async function page() {
                 imageSrc="/images/sales1.svg"
                 heading={
                     <>
-                        Efficient <span className="txtYellow">SECA Advisory</span>
+                        Efficient <span className="txtYellow">CISA Advisory</span>
                         <br />
-                        <span className="txtBlue">Reps</span>
+                        <span className="txtBlue">Services</span>
                     </>
                 }
                 description="Leverage our Sales Development Reps to consistently fill your pipeline with qualified opportunities. Our skilled SDRs coupled with our proven-process empower your business to achieve sustainable growth and maximize ROI"
@@ -124,7 +124,7 @@ export default async function page() {
                         <span className="txtBlue">Sales Development</span> Reps
                     </>
                 }
-                teamMembers={sicaTeamList}
+                teamMembers={cisaTeamList}
                 highlightLast={true}
                 showRequestButton={true}
             />

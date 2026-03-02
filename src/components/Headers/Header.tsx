@@ -45,7 +45,6 @@ export default function Header() {
 
   const solutions = [
     "Sales Development Rep",
-    "SICA Advisory",
     "Customer Support Rep",
     "Leads Researcher",
     "Digital Marketing Rep",
@@ -53,6 +52,7 @@ export default function Header() {
     "Front-end Developer",
     "Back-end Developer",
     "Executive Assistant",
+    "CISA Advisory",
   ];
 
   const toggleDropdown = () => setDropdownOpen((o) => !o);
