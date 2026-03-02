@@ -17,17 +17,19 @@ export default function HeadQuarter() {
       <ScrollReveal delay={0.2}>
         <Image
           src="/images/headquarter (3).svg"
-          alt=" "
+          alt="Office Headquarters"
           width={700}
           height={500}
           className="w-full md:block hidden"
+          unoptimized
         />
         <Image
-          src="/images/headquarter (3)Mob.svg"
-          alt=" "
+          src="/images/headquarter (3).svg"
+          alt="Office Headquarters Mobile"
           width={700}
           height={500}
           className="w-full md:hidden block"
+          unoptimized
         />
       </ScrollReveal>
     </div>

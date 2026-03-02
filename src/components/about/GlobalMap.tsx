@@ -29,6 +29,7 @@ export default function GlobalMap() {
         width={700}
         height={500}
         className="w-full sm:block hidden"
+        unoptimized
       />
       {/* <Image
         src="/images/globalmapMob.svg"

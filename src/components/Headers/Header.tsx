@@ -45,6 +45,7 @@ export default function Header() {
 
   const solutions = [
     "Sales Development Rep",
+    "SECA Advisory",
     "Customer Support Rep",
     "Leads Researcher",
     "Digital Marketing Rep",
@@ -183,9 +184,8 @@ export default function Header() {
                         <li key={i}>
                           <Link
                             href={slug}
-                            className={`block px-4 py-2 hover:bg-gray-200 ${
-                              pathname === slug ? styles.active : ""
-                            }`}
+                            className={`block px-4 py-2 hover:bg-gray-200 ${pathname === slug ? styles.active : ""
+                              }`}
                             onClick={() => setDropdownOpen(false)}
                           >
                             {sol}
@@ -373,9 +373,8 @@ export default function Header() {
                                 setDropdownOpen(false);
                                 setMobileOpen(false);
                               }}
-                              className={`flex gap-4 items-center py-4 ${
-                                pathname === slug ? styles.active : ""
-                              }`}
+                              className={`flex gap-4 items-center py-4 ${pathname === slug ? styles.active : ""
+                                }`}
                             >
                               <FaCircle className="text-[#FEB402] size-3" />
                               {sol}
