@@ -16,13 +16,13 @@ export const cisaTeamList = [
         ],
     },
     {
-        name: "Priya K",
+        name: "Layla A",
         role: "CISA Auditor",
-        image: "/images/Priya K.png",
-        location: "India",
+        image: "/images/Layla A.png",
+        location: "Dubai, UAE",
         experience: "5 years of experience",
         description:
-            "Priya brings expertise in cybersecurity audits and GRC frameworks. She has led SOC 1 and SOC 2 audits, helping organizations strengthen their internal controls and data protection practices.",
+            "Layla brings expertise in cybersecurity audits and GRC frameworks. She has led SOC 1 and SOC 2 audits, helping organizations strengthen their internal controls and data protection practices.",
         skills: [
             "SOC 1 & SOC 2",
             "GRC Frameworks",

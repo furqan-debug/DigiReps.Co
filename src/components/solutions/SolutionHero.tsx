@@ -7,6 +7,8 @@ interface SolutionHeroProps {
   imageAlt?: string;
   heading: React.ReactNode;
   description: string;
+  imageWidth?: number;
+  imageHeight?: number;
 }
 
 const SolutionHero: React.FC<SolutionHeroProps> = ({
@@ -14,6 +16,8 @@ const SolutionHero: React.FC<SolutionHeroProps> = ({
   imageAlt = "",
   heading,
   description,
+  imageWidth = 141.83,
+  imageHeight = 134.73,
 }) => {
   return (
     <section className={`pt-44 pb-44 bgHero -mt-36 md:px-6 px-12`}>
@@ -23,8 +27,8 @@ const SolutionHero: React.FC<SolutionHeroProps> = ({
             <Image
               src={imageSrc}
               alt={imageAlt}
-              width={141.83}
-              height={134.73}
+              width={imageWidth}
+              height={imageHeight}
             />
           </ScrollReveal>
         </figure>

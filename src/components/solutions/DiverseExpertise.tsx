@@ -38,7 +38,7 @@ export default function DiverseExpertise({
                 key={index}
                 src={logo.src}
                 alt={"logo"}
-                className="md:mx-14 mx-8 w-full"
+                className="md:mx-6 mx-4 w-full"
                 width={250}
                 height={100}
               />

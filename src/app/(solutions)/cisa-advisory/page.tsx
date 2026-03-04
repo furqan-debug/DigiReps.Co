@@ -39,7 +39,9 @@ export default async function page() {
             {/* <Header /> */}
             {/* <SolutionHero /> */}
             <SolutionHero
-                imageSrc="/images/sales1.svg"
+                imageSrc="/images/icon sica advisory.png"
+                imageWidth={400}
+                imageHeight={380}
                 heading={
                     <>
                         Certified <span className="txtYellow">CISA</span>
@@ -81,7 +83,7 @@ export default async function page() {
                     "IT General Controls (ITGC) and Security Reviews",
                     "Audit Reporting, Documentation, and Remediation Planning",
                 ]}
-                imageSrc="/images/sdr.webp"
+                imageSrc="/images/cisa girl.png"
             />
             <DiverseExpertise
                 heading={
