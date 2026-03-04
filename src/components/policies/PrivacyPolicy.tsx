@@ -17,7 +17,7 @@ export default function PrivacyPolicy({ data }: PrivacyPolicyProps) {
             </h1>
             <div
               className="text-[#1E1E1E] flex flex-col gap-4 max-w-5xl policyPage"
-              dangerouslySetInnerHTML={{ __html: data[0].fields.policyContent }}
+              dangerouslySetInnerHTML={{ __html: data?.[0]?.fields?.policyContent ?? "" }}
             ></div>
           </ScrollReveal>
         </div>

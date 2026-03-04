@@ -17,7 +17,7 @@ export default function TermsAndConditions({ data }: TermsConditionsProps) {
             </h1>
             <div
               className="text-[#1E1E1E] flex flex-col gap-4 max-w-5xl policyPage"
-              dangerouslySetInnerHTML={{ __html: data[0].fields.termsContent }}
+              dangerouslySetInnerHTML={{ __html: data?.[0]?.fields?.termsContent ?? "" }}
             ></div>
           </ScrollReveal>
         </div>
