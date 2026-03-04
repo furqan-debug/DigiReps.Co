@@ -40,8 +40,6 @@ export default async function page() {
             {/* <SolutionHero /> */}
             <SolutionHero
                 imageSrc="/images/icon sica advisory.png"
-                imageWidth={400}
-                imageHeight={380}
                 heading={
                     <>
                         Certified <span className="txtYellow">CISA</span>
