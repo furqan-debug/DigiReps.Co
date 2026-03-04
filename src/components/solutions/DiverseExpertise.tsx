@@ -12,12 +12,16 @@ type DiverseExpertiseProps = {
   logos: {
     src: string
   }[];
+  logoWidth?: number;
+  logoHeight?: number;
 };
 
 export default function DiverseExpertise({
   heading,
   subheading,
   logos,
+  logoWidth = 250,
+  logoHeight = 100,
 }: DiverseExpertiseProps) {
   const { openModal } = useModal();
 
@@ -38,9 +42,10 @@ export default function DiverseExpertise({
                 key={index}
                 src={logo.src}
                 alt={"logo"}
-                className="md:mx-6 mx-4 w-full"
-                width={250}
-                height={100}
+                className="md:mx-6 mx-4"
+                width={500}
+                height={500}
+                style={{ height: logoHeight, width: "auto" }}
               />
             ))}
           </div>

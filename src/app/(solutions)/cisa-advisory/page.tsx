@@ -95,6 +95,8 @@ export default async function page() {
                 }
                 subheading="At DigiReps, our expert CISA Auditors are proficient in leading IT audit frameworks, risk assessment methodologies, and compliance standards. Whatever your governance, security, or compliance needs are, we’ll provide the ideal audit and advisory support to strengthen controls and reduce risk."
                 logos={logos1}
+                logoWidth={100}
+                logoHeight={100}
             />
             <CaseStudies
                 heading={

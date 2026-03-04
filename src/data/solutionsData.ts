@@ -165,10 +165,10 @@ export const logos = [
 ];
 
 export const logos1 = [
-    { src: "/images/iso 27.png" },
-    { src: "/images/isaca.png" },
-    { src: "/images/soc 1.png" },
-    { src: "/images/soc 2.png" },
-    { src: "/images/cisa.png" },
-    { src: "/images/sox.png" },
+    { src: "/images/iso 27.svg" },
+    { src: "/images/isaca.svg" },
+    { src: "/images/soc 1.svg" },
+    { src: "/images/cisa.svg" },
+    { src: "/images/soc 2.svg" },
+    { src: "/images/sox.svg" },
 ];

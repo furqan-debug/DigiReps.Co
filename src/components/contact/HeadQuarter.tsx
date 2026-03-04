@@ -1,6 +1,5 @@
 import React from "react";
 import ScrollReveal from "../home/ScrollReveal";
-import Image from "next/image";
 
 export default function HeadQuarter() {
   return (
@@ -15,21 +14,17 @@ export default function HeadQuarter() {
         </h2>
       </ScrollReveal>
       <ScrollReveal delay={0.2}>
-        <Image
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
           src="/images/headquarter (3).svg"
           alt="Office Headquarters"
-          width={700}
-          height={500}
           className="w-full md:block hidden"
-          unoptimized
         />
-        <Image
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
           src="/images/headquarter (3).svg"
           alt="Office Headquarters Mobile"
-          width={700}
-          height={500}
           className="w-full md:hidden block"
-          unoptimized
         />
       </ScrollReveal>
     </div>
