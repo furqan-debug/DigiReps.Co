@@ -63,6 +63,22 @@ export const cisaTeamList = [
             "Internal Controls",
         ],
     },
+    {
+        name: "More Auditors",
+        role: "CISA Auditor",
+        image: "/images/Priya K.png",
+        location: "Global",
+        experience: "3+ years of experience",
+        description:
+            "We have more highly qualified CISA Auditors available. Contact us to find the perfect match for your compliance and audit needs.",
+        skills: [
+            "IT Auditing",
+            "Risk Management",
+            "Compliance",
+            "GRC Frameworks",
+            "Cybersecurity",
+        ],
+    },
 ];
 
 export const sdrTeamList = [
