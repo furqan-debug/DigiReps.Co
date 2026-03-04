@@ -36,13 +36,13 @@ export default function DiverseExpertise({
 
       <div>
         <Marquee speed={150} direction="left">
-          <div className="flex py-16">
+          <div className="flex items-center py-16">
             {logos.map((logo, index) => (
               <Image
                 key={index}
                 src={logo.src}
                 alt={"logo"}
-                className="md:mx-6 mx-4"
+                className="px-14"
                 width={500}
                 height={500}
                 style={{ height: logoHeight, width: "auto" }}
