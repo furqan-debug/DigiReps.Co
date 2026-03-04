@@ -43,6 +43,7 @@ export default async function RootLayout({
     content_type: "footerReviewsPlatform",
   });
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const data = response.items.map((item: any) => ({
     sys: { id: item.sys.id },
     fields: {
@@ -52,6 +53,7 @@ export default async function RootLayout({
     },
   }));
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const data1 = response1.items.map((item: any) => ({
     sys: { id: item.sys.id },
     fields: {
