@@ -2,11 +2,12 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   serverExternalPackages: ["contentful"],
+  turbopack: {},
   images: {
-    domains: [
-      "res.cloudinary.com",
-      "lh3.googleusercontent.com",
-      "images.ctfassets.net",
+    remotePatterns: [
+      { protocol: "https", hostname: "res.cloudinary.com" },
+      { protocol: "https", hostname: "lh3.googleusercontent.com" },
+      { protocol: "https", hostname: "images.ctfassets.net" },
     ],
   },
   webpack: (config, { isServer }) => {
