@@ -13,7 +13,7 @@ import WhyChoose from "@/components/solutions/WhyChoose";
 import { getClient } from "lib/contentful";
 import { AssetField } from "lib/types/contentful";
 import React from "react";
-import { logos, cisaTeamList } from "@/data/solutionsData";
+import { cisaTeamList, logos1 } from "@/data/solutionsData";
 
 export default async function page() {
     const client = getClient();
@@ -42,12 +42,12 @@ export default async function page() {
                 imageSrc="/images/sales1.svg"
                 heading={
                     <>
-                        Efficient <span className="txtYellow">CISA Advisory</span>
+                        Certified <span className="txtYellow">CISA</span>
                         <br />
-                        <span className="txtBlue">Services</span>
+                        <span className="txtBlue">Auditors</span>
                     </>
                 }
-                description="Leverage our Sales Development Reps to consistently fill your pipeline with qualified opportunities. Our skilled SDRs coupled with our proven-process empower your business to achieve sustainable growth and maximize ROI"
+                description="Leverage our CISA Advisory Auditors to strengthen your organization’s information security, compliance, and risk management frameworks. Our highly skilled professionals combine deep audit expertise with modern cybersecurity practices to assess controls, identify vulnerabilities, and ensure your systems align with global compliance standards—helping safeguard your business while supporting long-term operational resilience."
             />
 
             <Brands />
@@ -57,30 +57,29 @@ export default async function page() {
                         Why choose
                     </span>,
                     <span className="txtYellow" key="2">
-                        DigiReps
+                        DigiReps CISA
                     </span>,
                     <span className="txtBlue" key="3">
-                        SDR
+                        Auditors
                     </span>,
                 ]}
-                description="DigiReps SDRs offer a cost-effective way to supercharge your sales pipeline by leveraging top-tier global talent. Our scalable teams are trained to ramp up quickly, helping you reach more prospects and close deals faster."
+                description="Information systems are the backbone of modern businesses, and ensuring their security, reliability, and compliance is critical to long-term success. Our CISA-certified auditors bring a strong combination of technical expertise and audit discipline to help organizations evaluate IT controls, mitigate risks, and strengthen governance frameworks. From security assessments to compliance audits, our professionals provide valuable insights that help protect your digital infrastructure while supporting operational efficiency."
                 highlights={[
                     "Cost Effectiveness",
-                    "Bigger & Better Global Talent Pool",
                     "Quick Scalability",
                 ]}
                 skillsTitle="Top Skills & Expectations"
                 leftSkills={[
-                    "Cold calling",
-                    "Appointment setting",
-                    "Follow up & follow through",
-                    "Getting around gate-keepers",
+                    "Information Systems Auditing and Control Assessment",
+                    "IT Risk Management and Compliance Advisory",
+                    "Cybersecurity and Data Protection Audits",
+                    "Internal Control Evaluation and Testing",
                 ]}
                 rightSkills={[
-                    "Identifying the right decision maker",
-                    "Top-notch Communication",
-                    "No Heavy Accent",
-                    "Culturally Fit",
+                    "Governance, Risk, and Compliance (GRC) Frameworks",
+                    "Regulatory Compliance (SOX, ISO 27001, SOC 1, SOC 2)",
+                    "IT General Controls (ITGC) and Security Reviews",
+                    "Audit Reporting, Documentation, and Remediation Planning",
                 ]}
                 imageSrc="/images/sdr.webp"
             />
@@ -94,8 +93,8 @@ export default async function page() {
                         </span>
                     </>
                 }
-                subheading="At DigiReps, our expert SDRs are equipped with all major CRM & Sales tools expertise. Whatever your needs are, we’ll deliver the perfect solution to fit your growth mission."
-                logos={logos}
+                subheading="At DigiReps, our expert CISA Auditors are proficient in leading IT audit frameworks, risk assessment methodologies, and compliance standards. Whatever your governance, security, or compliance needs are, we’ll provide the ideal audit and advisory support to strengthen controls and reduce risk."
+                logos={logos1}
             />
             <CaseStudies
                 heading={
@@ -110,8 +109,8 @@ export default async function page() {
             <HowToHire
                 heading={
                     <>
-                        How to Hire Sales <span className="txtYellow">Development </span>
-                        Reps
+                        How to Hire <span className="txtYellow">CISA </span>
+                        Auditors
                         <br /> with DigiReps
                     </>
                 }
@@ -121,7 +120,7 @@ export default async function page() {
                 title={
                     <>
                         Meet <span className="txtYellow">DigiReps&apos;</span> <br />
-                        <span className="txtBlue">Sales Development</span> Reps
+                        <span className="txtBlue">CISA Auditors</span>
                     </>
                 }
                 teamMembers={cisaTeamList}

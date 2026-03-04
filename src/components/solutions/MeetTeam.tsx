@@ -91,9 +91,8 @@ export default function MeetTeam({
                 >
                   <div className="rounded-2xl border border-[#0B409C4D] md:py-8 py-6 md:px-10 px-6 md:h-[400px]">
                     <div
-                      className={`${
-                        highlightLast && isLast ? "blur-lg" : ""
-                      } flex flex-col justify-between`}
+                      className={`${highlightLast && isLast ? "blur-lg" : ""
+                        } flex flex-col justify-between`}
                     >
                       <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center">

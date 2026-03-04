@@ -40,7 +40,7 @@ export default function DiverseExpertise({
                 alt={"logo"}
                 className="md:mx-14 mx-8 w-full"
                 width={250}
-                height={40}
+                height={100}
               />
             ))}
           </div>
