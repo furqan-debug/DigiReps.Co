@@ -14,10 +14,14 @@ export async function register() {
         ) {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             (globalThis as any).localStorage = {
+                // eslint-disable-next-line @typescript-eslint/no-unused-vars
                 getItem: (_key: string) => null,
+                // eslint-disable-next-line @typescript-eslint/no-unused-vars
                 setItem: (_key: string, _value: string) => { },
+                // eslint-disable-next-line @typescript-eslint/no-unused-vars
                 removeItem: (_key: string) => { },
                 clear: () => { },
+                // eslint-disable-next-line @typescript-eslint/no-unused-vars
                 key: (_index: number) => null,
                 length: 0,
             };
