@@ -92,6 +92,16 @@ const services = [
     ],
     link: "Executive Assistant",
   },
+  {
+    title: "Certified CISA Auditors",
+    skills: [
+      "Risk Assessment",
+      "Compliance Management",
+      "Data Security",
+      "Audit Support",
+    ],
+    link: "CISA Advisory",
+  },
 ];
 
 const ScopeServices = () => {
