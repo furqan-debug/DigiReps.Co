@@ -1,4 +1,4 @@
-/**
+/*
  * Next.js instrumentation hook — runs once when the server starts.
  * Patches Node.js v25's broken built-in localStorage stub.
  * Node.js v25 exposes `globalThis.localStorage` but `getItem` is not a function
