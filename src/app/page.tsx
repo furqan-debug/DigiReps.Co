@@ -37,6 +37,15 @@ export default async function Home() {
     },
   }));
 
+  data.push({
+    sys: { id: "cisa-auditor-static" },
+    fields: {
+      image: { fields: { file: { url: "/images/cisa-auditor.svg" }, title: "Certified CISA Auditors" } } as any,
+      heading: "Certified CISA Auditors",
+      description: "Compliance is about more than rules—it's about reputation. Our Certified CISA Auditors aren't just experts; they're trusted advisors. We ensure your systems are secure, compliant, and thoroughly protected.",
+    }
+  });
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const data1 = response1.items.map((item: any) => ({
     sys: { id: item.sys.id },

@@ -57,6 +57,13 @@ const EmpowerYourBusiness: React.FC<EmpowerYourBusinessProps> = ({ data }) => {
   //       "Time isn’t just money—it’s your most valuable asset. With an Executive Assistant managing the details, your focus stays where it belongs: on leading and growing without distraction",
   //     image: "/images/executive-assistant.svg",
   //   },
+  //    
+  //    { 
+  //     title: "Certified CISA Auditors",
+  //     description:
+  //       "Compliance is about more than rules—it's about reputation. Our Certified CISA Auditors aren't just experts; they're trusted advisors. We ensure your systems are secure, compliant, and thoroughly protected.",
+  //     image: "/cisa-auditor.svg",
+  //    },
   // ];
 
   return (
@@ -96,7 +103,7 @@ const EmpowerYourBusiness: React.FC<EmpowerYourBusinessProps> = ({ data }) => {
               <div>
                 <figure className="">
                   <img
-                    src={`https:${fields.image.fields.file.url}`}
+                    src={fields.image.fields.file.url.startsWith('/') && !fields.image.fields.file.url.startsWith('//') ? fields.image.fields.file.url : `https:${fields.image.fields.file.url}`}
                     alt={fields.image.fields.title}
                     className="mb-5 2xl:h-52 md:h-32 h-24"
                   />
