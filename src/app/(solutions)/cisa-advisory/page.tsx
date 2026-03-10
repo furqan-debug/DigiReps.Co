@@ -3,37 +3,16 @@ import Stats from "@/components/about/Stats";
 import GrowCostEffectively from "@/components/home/sections/GrowCostEffectively";
 import TestimonialsSection from "@/components/home/sections/TestimonialsSection";
 import Brands from "@/components/solutions/Brands";
-import CaseStudies from "@/components/solutions/CaseStudies";
 import DiverseExpertise from "@/components/solutions/DiverseExpertise";
 import HiringChoices from "@/components/solutions/HiringChoices";
 import HowToHire from "@/components/solutions/HowToHire";
 import MeetTeam from "@/components/solutions/MeetTeam";
 import SolutionHero from "@/components/solutions/SolutionHero";
 import WhyChoose from "@/components/solutions/WhyChoose";
-import { getClient } from "lib/contentful";
-import { AssetField } from "lib/types/contentful";
 import React from "react";
 import { cisaTeamList, logos1 } from "@/data/solutionsData";
 
 export default async function page() {
-    const client = getClient();
-    const response3 = await client.getEntries({
-        content_type: "solutionsCaseStudies",
-        "metadata.tags.sys.id[in]": ["salesDevelopmentReps"],
-    });
-    //   response3.items.forEach(item => {
-    //   console.log('TAGS:', item.metadata.tags.map(t => t.sys.id));
-    // });
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const data3 = response3.items.map((item: any) => ({
-        sys: { id: item.sys.id },
-        fields: {
-            logo: item.fields.logo as AssetField,
-            heading: item.fields.heading as string,
-            description: item.fields.description as string,
-            pdfFile: item.fields.pdfFile as AssetField,
-        },
-    }));
     return (
         <div>
             {/* <Header /> */}
@@ -97,16 +76,6 @@ export default async function page() {
                 logos={logos1}
                 logoWidth={100}
                 logoHeight={100}
-            />
-            <CaseStudies
-                heading={
-                    <>
-                        Case Studies: How We <br />
-                        Help <span className="txtYellow">Businesses Scale</span>
-                    </>
-                }
-                subheading="Discover how DigiReps has helped businesses grow by providing top-tier remote professionals. See real-world examples of our impact and how we drive success remotely."
-                caseStudies={data3}
             />
             <HowToHire
                 heading={
