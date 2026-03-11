@@ -95,10 +95,10 @@ const services = [
   {
     title: "Certified CISA Auditors",
     skills: [
-      "Risk Assessment",
-      "Compliance Management",
-      "Data Security",
-      "Audit Support",
+      "ITGC Reviews",
+      "Regulatory Compliance",
+      "GRC Frameworks",
+      "Cybersecurity & Data Audits",
     ],
     link: "CISA Advisory",
   },
